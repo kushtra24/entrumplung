@@ -62,8 +62,8 @@
             content="Gründliche Grundreinigung nach Entrümpelung oder Umzug."
           />
           <ServicesCard
-            title="Gartenräumungen"
-            content="Räumung und Pflege von Gärten und Außenanlagen."
+            title="Umzüge"
+            content="Professionelle Umzüge für Privat- und Geschäftskunden, Haus und Wohnung."
           />
         </div>  
       </div>
@@ -76,28 +76,24 @@
       >
         <div class="flex-1">
           <h2 class="text-3xl font-bold text-blue-700 mb-4">Unser Standort</h2>
-          <p class="mb-2">Musterstraße 12<br />12345 Musterstadt</p>
+          <p class="mb-2">Bärenbachstraße 27, <br />53506 Rech</p>
           <p class="mb-2">
             Telefon:
             <a href="tel:+491234567890" class="text-blue-600 hover:underline"
-              >+49 123 4567890</a
+              >+49 176 32734805</a
             >
           </p>
           <p>
             E-Mail:
             <a
-              href="mailto:info@entruempelung.de"
+              href="mailto:info@entruempelung-sk.de"
               class="text-blue-600 hover:underline"
-              >info@entruempelung.de</a
+              >info@entruempelung-sk.de</a
             >
           </p>
         </div>
         <div class="flex-1 w-full h-64">
-          <iframe
-            class="w-full h-full rounded-lg shadow"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=13.404954%2C52.520008%2C13.404954%2C52.520008&amp;layer=mapnik"
-            style="border: 1px solid #ccc"
-          />
+          <BaseMap />
         </div>
       </div>
     </section>

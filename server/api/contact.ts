@@ -10,21 +10,26 @@ export default defineEventHandler(async (event) => {
   }
 
   // Configure your SMTP transporter
+  const port = Number(process.env.SMTP_PORT) || 587;
+  const secure = port === 465; // true for 465, false for other ports
+
   const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
-    port: Number(process.env.SMTP_PORT) || 587,
-    secure: false, // true for 465, false for other ports
+    port,
+    secure,
     auth: {
       user: process.env.SMTP_USER,
       pass: process.env.SMTP_PASS,
     },
+    logger: true,
+    debug: true,
   });
 
   try {
     await transporter.sendMail({
       from: `Kontaktformular <${process.env.SMTP_USER}>`,
-      to: 'info@entrumplung-ks.de',
-      subject: 'Neue Kontaktanfrage',
+      to: 'kushtra24@gmail.com',
+      subject: 'Neue Kontaktanfrage von www.entruempelung-sk.de',
       text: `Name: ${name}\nEmail: ${email}\nNachricht: ${message}`,
       html: `<p><b>Name:</b> ${name}</p><p><b>Email:</b> ${email}</p><p><b>Nachricht:</b><br>${message}</p>`
     });

@@ -117,43 +117,29 @@ async function submitForm() {
       </div>
       <div class="bg-blue-50 p-8 rounded-lg shadow max-w-md">
         <h1 class="text-lg font-semibold">Unverbindlich Kontakt aufnehmen</h1>
-        <p>
-          Sie möchten eine Entrümpelung anfragen oder haben Fragen zu unseren
-          Leistungen. Melden Sie sich gerne telefonisch, per E-Mail oder über
-          das Kontaktformular. Wir sind für Sie da.
-        </p>
         <h2 class="text-md font-semibold mt-4">Adresse</h2>
         <p>
-          GRAVITAS Entrümpelungsservice
+          entruempelung-sk
           <br />
-          Euskirchener Straße 131 · 53919 Weilerswist
+          Bärenbachstraße 27, · 53506 Rech
         </p>
         <h2 class="text-md font-semibold mt-4">Ihr Ansprechspartner</h2>
+        <p>Herr Krasniqi</p>
+        <h2 class="text-md font-semibold mt-4">Kontakt</h2>
         <p>
-          Frau Ivanic
+          Telefon: +49 176 32734805
           <br />
-          Telefonnummer
-          <br />
-          Telefon: 02251 921 7970
-          <br />
-          Gratisnummer: 0800 333 3370
-          <br />
-          WhatsApp: 0157 5707 6734
+          WhatsApp: +49 176 32734805
         </p>
+        <h2 class="text-md font-semibold mt-4">E-Mail</h2>
         <p>
-          E-Mail
-          <br />
-          info@gravitas-koeln.de
+          info@entruempelung-sk.de
         </p>
-        <p>
-          Fax
-          <br />
-          02251 921 7972
-        </p>
-        <p>Bürozeiten</p>
+        <h2 class="text-md font-semibold mt-4">Bürozeiten</h2>
         <p>Mo - Fr: 8:00 bis 20:00 Uhr</p>
         <p>Sa: 8:00 bis 18:00 Uhr</p>
         <p>
+          <br />
           Besichtigungstermine nach Vereinbarung - auf Wunsch auch am Sonntag.
         </p>
       </div>
